@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		7814E271274D88A200BA924E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814E270274D88A200BA924E /* AppDelegate.swift */; };
 		7814E273274D88A200BA924E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814E272274D88A200BA924E /* SceneDelegate.swift */; };
-		7814E275274D88A200BA924E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814E274274D88A200BA924E /* ViewController.swift */; };
+		7814E275274D88A200BA924E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814E274274D88A200BA924E /* MapView.swift */; };
 		7814E278274D88A200BA924E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7814E276274D88A200BA924E /* Main.storyboard */; };
 		7814E27A274D88A300BA924E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7814E279274D88A300BA924E /* Assets.xcassets */; };
 		7814E27D274D88A300BA924E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7814E27B274D88A300BA924E /* LaunchScreen.storyboard */; };
+		78478761275013E100E5B7C8 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78478760275013E100E5B7C8 /* MapPresenter.swift */; };
+		784787632750140C00E5B7C8 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784787622750140C00E5B7C8 /* MapInteractor.swift */; };
+		784787652750142400E5B7C8 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784787642750142400E5B7C8 /* MapRouter.swift */; };
+		784787672750162600E5B7C8 /* MapEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784787662750162600E5B7C8 /* MapEntity.swift */; };
+		7847876A275019D300E5B7C8 /* MapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78478769275019D300E5B7C8 /* MapProtocols.swift */; };
+		7847876D27501BFF00E5B7C8 /* EntityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847876C27501BFF00E5B7C8 /* EntityProtocol.swift */; };
+		7847876F27501C1100E5B7C8 /* InteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847876E27501C1100E5B7C8 /* InteractorProtocol.swift */; };
+		7847877127501C2500E5B7C8 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877027501C2500E5B7C8 /* PresenterProtocol.swift */; };
+		7847877327501C3F00E5B7C8 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877227501C3F00E5B7C8 /* ViewProtocol.swift */; };
+		7847877527501C5300E5B7C8 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877427501C5300E5B7C8 /* RouterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7814E26D274D88A200BA924E /* EventsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7814E270274D88A200BA924E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7814E272274D88A200BA924E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7814E274274D88A200BA924E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7814E274274D88A200BA924E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7814E277274D88A200BA924E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7814E279274D88A300BA924E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7814E27C274D88A300BA924E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7814E27E274D88A300BA924E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78478760275013E100E5B7C8 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		784787622750140C00E5B7C8 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		784787642750142400E5B7C8 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		784787662750162600E5B7C8 /* MapEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEntity.swift; sourceTree = "<group>"; };
+		78478769275019D300E5B7C8 /* MapProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProtocols.swift; sourceTree = "<group>"; };
+		7847876C27501BFF00E5B7C8 /* EntityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityProtocol.swift; sourceTree = "<group>"; };
+		7847876E27501C1100E5B7C8 /* InteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorProtocol.swift; sourceTree = "<group>"; };
+		7847877027501C2500E5B7C8 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
+		7847877227501C3F00E5B7C8 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		7847877427501C5300E5B7C8 /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,65 @@
 		7814E26F274D88A200BA924E /* EventsMap */ = {
 			isa = PBXGroup;
 			children = (
-				7814E270274D88A200BA924E /* AppDelegate.swift */,
-				7814E272274D88A200BA924E /* SceneDelegate.swift */,
-				7814E274274D88A200BA924E /* ViewController.swift */,
+				7847876B27501BD400E5B7C8 /* mudule protocols */,
+				7847875E2750135300E5B7C8 /* modules */,
+				7847875D2750133F00E5B7C8 /* settings */,
 				7814E276274D88A200BA924E /* Main.storyboard */,
 				7814E279274D88A300BA924E /* Assets.xcassets */,
 				7814E27B274D88A300BA924E /* LaunchScreen.storyboard */,
 				7814E27E274D88A300BA924E /* Info.plist */,
 			);
 			path = EventsMap;
+			sourceTree = "<group>";
+		};
+		7847875D2750133F00E5B7C8 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				7814E270274D88A200BA924E /* AppDelegate.swift */,
+				7814E272274D88A200BA924E /* SceneDelegate.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		7847875E2750135300E5B7C8 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				7847875F2750137000E5B7C8 /* map */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		7847875F2750137000E5B7C8 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				784787682750195000E5B7C8 /* protocols */,
+				7814E274274D88A200BA924E /* MapView.swift */,
+				784787622750140C00E5B7C8 /* MapInteractor.swift */,
+				78478760275013E100E5B7C8 /* MapPresenter.swift */,
+				784787662750162600E5B7C8 /* MapEntity.swift */,
+				784787642750142400E5B7C8 /* MapRouter.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		784787682750195000E5B7C8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				78478769275019D300E5B7C8 /* MapProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		7847876B27501BD400E5B7C8 /* mudule protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7847877227501C3F00E5B7C8 /* ViewProtocol.swift */,
+				7847876E27501C1100E5B7C8 /* InteractorProtocol.swift */,
+				7847877027501C2500E5B7C8 /* PresenterProtocol.swift */,
+				7847876C27501BFF00E5B7C8 /* EntityProtocol.swift */,
+				7847877427501C5300E5B7C8 /* RouterProtocol.swift */,
+			);
+			path = "mudule protocols";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7814E275274D88A200BA924E /* ViewController.swift in Sources */,
+				7814E275274D88A200BA924E /* MapView.swift in Sources */,
 				7814E271274D88A200BA924E /* AppDelegate.swift in Sources */,
 				7814E273274D88A200BA924E /* SceneDelegate.swift in Sources */,
+				7847876A275019D300E5B7C8 /* MapProtocols.swift in Sources */,
+				784787632750140C00E5B7C8 /* MapInteractor.swift in Sources */,
+				7847876D27501BFF00E5B7C8 /* EntityProtocol.swift in Sources */,
+				7847876F27501C1100E5B7C8 /* InteractorProtocol.swift in Sources */,
+				78478761275013E100E5B7C8 /* MapPresenter.swift in Sources */,
+				7847877527501C5300E5B7C8 /* RouterProtocol.swift in Sources */,
+				784787672750162600E5B7C8 /* MapEntity.swift in Sources */,
+				784787652750142400E5B7C8 /* MapRouter.swift in Sources */,
+				7847877327501C3F00E5B7C8 /* ViewProtocol.swift in Sources */,
+				7847877127501C2500E5B7C8 /* PresenterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +374,6 @@
 				INFOPLIST_FILE = EventsMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +401,6 @@
 				INFOPLIST_FILE = EventsMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
