@@ -23,6 +23,12 @@
 		7847877127501C2500E5B7C8 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877027501C2500E5B7C8 /* PresenterProtocol.swift */; };
 		7847877327501C3F00E5B7C8 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877227501C3F00E5B7C8 /* ViewProtocol.swift */; };
 		7847877527501C5300E5B7C8 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877427501C5300E5B7C8 /* RouterProtocol.swift */; };
+		78478779275030E700E5B7C8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78478778275030E700E5B7C8 /* ProfileView.swift */; };
+		7847877B275030FB00E5B7C8 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877A275030FB00E5B7C8 /* ProfileInteractor.swift */; };
+		7847877D2750311A00E5B7C8 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877C2750311A00E5B7C8 /* ProfilePresenter.swift */; };
+		7847877F2750312D00E5B7C8 /* ProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877E2750312D00E5B7C8 /* ProfileEntity.swift */; };
+		784787812750314100E5B7C8 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784787802750314100E5B7C8 /* ProfileRouter.swift */; };
+		7847878527503EDA00E5B7C8 /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847878427503EDA00E5B7C8 /* ProfileProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		7847877027501C2500E5B7C8 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
 		7847877227501C3F00E5B7C8 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
 		7847877427501C5300E5B7C8 /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		78478778275030E700E5B7C8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7847877A275030FB00E5B7C8 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		7847877C2750311A00E5B7C8 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		7847877E2750312D00E5B7C8 /* ProfileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEntity.swift; sourceTree = "<group>"; };
+		784787802750314100E5B7C8 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		7847878427503EDA00E5B7C8 /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileProtocols.swift; path = ../../../../../../ProfileProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +88,9 @@
 		7814E26F274D88A200BA924E /* EventsMap */ = {
 			isa = PBXGroup;
 			children = (
-				7847876B27501BD400E5B7C8 /* mudule protocols */,
-				7847875E2750135300E5B7C8 /* modules */,
-				7847875D2750133F00E5B7C8 /* settings */,
+				7847876B27501BD400E5B7C8 /* MuduleProtocols */,
+				7847875E2750135300E5B7C8 /* Modules */,
+				7847875D2750133F00E5B7C8 /* Settings */,
 				7814E276274D88A200BA924E /* Main.storyboard */,
 				7814E279274D88A300BA924E /* Assets.xcassets */,
 				7814E27B274D88A300BA924E /* LaunchScreen.storyboard */,
@@ -87,45 +99,48 @@
 			path = EventsMap;
 			sourceTree = "<group>";
 		};
-		7847875D2750133F00E5B7C8 /* settings */ = {
+		7847875D2750133F00E5B7C8 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
 				7814E270274D88A200BA924E /* AppDelegate.swift */,
 				7814E272274D88A200BA924E /* SceneDelegate.swift */,
 			);
-			path = settings;
+			path = Settings;
 			sourceTree = "<group>";
 		};
-		7847875E2750135300E5B7C8 /* modules */ = {
+		7847875E2750135300E5B7C8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				7847875F2750137000E5B7C8 /* map */,
+				784787832750321E00E5B7C8 /* EventCreation */,
+				784787822750317B00E5B7C8 /* EventDescription */,
+				78478776275030A000E5B7C8 /* Profile */,
+				7847875F2750137000E5B7C8 /* Map */,
 			);
-			path = modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		7847875F2750137000E5B7C8 /* map */ = {
+		7847875F2750137000E5B7C8 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				784787682750195000E5B7C8 /* protocols */,
+				784787682750195000E5B7C8 /* Protocols */,
 				7814E274274D88A200BA924E /* MapView.swift */,
 				784787622750140C00E5B7C8 /* MapInteractor.swift */,
 				78478760275013E100E5B7C8 /* MapPresenter.swift */,
 				784787662750162600E5B7C8 /* MapEntity.swift */,
 				784787642750142400E5B7C8 /* MapRouter.swift */,
 			);
-			path = map;
+			path = Map;
 			sourceTree = "<group>";
 		};
-		784787682750195000E5B7C8 /* protocols */ = {
+		784787682750195000E5B7C8 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				78478769275019D300E5B7C8 /* MapProtocols.swift */,
 			);
-			path = protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
-		7847876B27501BD400E5B7C8 /* mudule protocols */ = {
+		7847876B27501BD400E5B7C8 /* MuduleProtocols */ = {
 			isa = PBXGroup;
 			children = (
 				7847877227501C3F00E5B7C8 /* ViewProtocol.swift */,
@@ -134,7 +149,42 @@
 				7847876C27501BFF00E5B7C8 /* EntityProtocol.swift */,
 				7847877427501C5300E5B7C8 /* RouterProtocol.swift */,
 			);
-			path = "mudule protocols";
+			path = MuduleProtocols;
+			sourceTree = "<group>";
+		};
+		78478776275030A000E5B7C8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				78478777275030D000E5B7C8 /* Protocols */,
+				78478778275030E700E5B7C8 /* ProfileView.swift */,
+				7847877A275030FB00E5B7C8 /* ProfileInteractor.swift */,
+				7847877C2750311A00E5B7C8 /* ProfilePresenter.swift */,
+				7847877E2750312D00E5B7C8 /* ProfileEntity.swift */,
+				784787802750314100E5B7C8 /* ProfileRouter.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		78478777275030D000E5B7C8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7847878427503EDA00E5B7C8 /* ProfileProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		784787822750317B00E5B7C8 /* EventDescription */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EventDescription;
+			sourceTree = "<group>";
+		};
+		784787832750321E00E5B7C8 /* EventCreation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EventCreation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,11 +265,17 @@
 				784787632750140C00E5B7C8 /* MapInteractor.swift in Sources */,
 				7847876D27501BFF00E5B7C8 /* EntityProtocol.swift in Sources */,
 				7847876F27501C1100E5B7C8 /* InteractorProtocol.swift in Sources */,
+				7847878527503EDA00E5B7C8 /* ProfileProtocols.swift in Sources */,
+				7847877B275030FB00E5B7C8 /* ProfileInteractor.swift in Sources */,
 				78478761275013E100E5B7C8 /* MapPresenter.swift in Sources */,
 				7847877527501C5300E5B7C8 /* RouterProtocol.swift in Sources */,
+				7847877D2750311A00E5B7C8 /* ProfilePresenter.swift in Sources */,
 				784787672750162600E5B7C8 /* MapEntity.swift in Sources */,
+				784787812750314100E5B7C8 /* ProfileRouter.swift in Sources */,
 				784787652750142400E5B7C8 /* MapRouter.swift in Sources */,
 				7847877327501C3F00E5B7C8 /* ViewProtocol.swift in Sources */,
+				78478779275030E700E5B7C8 /* ProfileView.swift in Sources */,
+				7847877F2750312D00E5B7C8 /* ProfileEntity.swift in Sources */,
 				7847877127501C2500E5B7C8 /* PresenterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol ViewProtocol: class {
-  
+protocol ViewProtocol: AnyObject {
+  var presenter: PresenterProtocol? { get set }
 }

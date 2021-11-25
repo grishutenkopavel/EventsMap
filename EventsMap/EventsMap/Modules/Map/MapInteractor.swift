@@ -8,5 +8,5 @@
 import Foundation
 
 class MapInteractor: MapInteractorProtocol {
-  
+  weak var presenter: PresenterProtocol?
 }

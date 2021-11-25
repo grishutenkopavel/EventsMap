@@ -7,7 +7,6 @@
 
 import UIKit
 
-protocol RouterProtocol: class {
+protocol RouterProtocol: AnyObject {
   static func createModule() -> ViewProtocol
-  func pushTo(navigationController: UINavigationController)
 }
