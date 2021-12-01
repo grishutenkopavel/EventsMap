@@ -19,8 +19,12 @@ class MapPresenter: MapPresenterProtocol {
   func showSearchTable(navigationController: UINavigationController) {
     (router as? MapRouterProtocol)?.pushToSearchTableModule(use: navigationController)
   }
-  func showEventDescription(navigationController: UINavigationController) {}
-  func showEventCreation(navigationController: UINavigationController) {}
+  func showEventDescription(navigationController: UINavigationController) {
+    (router as? MapRouterProtocol)?.pushToEventDescriptionModule(use: navigationController)
+  }
+  func showEventCreation(navigationController: UINavigationController) {
+    (router as? MapRouterProtocol)?.pushToEventCreationModule(use: navigationController)
+  }
 }
 
 //MARK: - Event handling

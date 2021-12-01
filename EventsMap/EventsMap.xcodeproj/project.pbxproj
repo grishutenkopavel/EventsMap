@@ -13,6 +13,18 @@
 		7814E278274D88A200BA924E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7814E276274D88A200BA924E /* Main.storyboard */; };
 		7814E27A274D88A300BA924E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7814E279274D88A300BA924E /* Assets.xcassets */; };
 		7814E27D274D88A300BA924E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7814E27B274D88A300BA924E /* LaunchScreen.storyboard */; };
+		781ED20F2757F7D5007B9287 /* EventDescriptionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED20E2757F7D5007B9287 /* EventDescriptionProtocols.swift */; };
+		781ED2112757F80D007B9287 /* EventDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2102757F80D007B9287 /* EventDescriptionView.swift */; };
+		781ED2132757F822007B9287 /* EventDescriptionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2122757F822007B9287 /* EventDescriptionInteractor.swift */; };
+		781ED2152757F83A007B9287 /* EventDescriptionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2142757F83A007B9287 /* EventDescriptionPresenter.swift */; };
+		781ED2172757F863007B9287 /* EventDescriptionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2162757F863007B9287 /* EventDescriptionEntity.swift */; };
+		781ED2192757F871007B9287 /* EventDescriptionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2182757F871007B9287 /* EventDescriptionRouter.swift */; };
+		781ED21C2757F8A8007B9287 /* EventCreationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED21B2757F8A8007B9287 /* EventCreationProtocols.swift */; };
+		781ED21E2757F8BB007B9287 /* EventCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED21D2757F8BB007B9287 /* EventCreationView.swift */; };
+		781ED2202757F8D8007B9287 /* EventCreationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED21F2757F8D8007B9287 /* EventCreationInteractor.swift */; };
+		781ED2222757F8EE007B9287 /* EventCreationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2212757F8EE007B9287 /* EventCreationPresenter.swift */; };
+		781ED2242757F90A007B9287 /* EventCreationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2232757F90A007B9287 /* EventCreationEntity.swift */; };
+		781ED2262757F913007B9287 /* EventCreationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ED2252757F913007B9287 /* EventCreationRouter.swift */; };
 		78478761275013E100E5B7C8 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78478760275013E100E5B7C8 /* MapPresenter.swift */; };
 		784787632750140C00E5B7C8 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784787622750140C00E5B7C8 /* MapInteractor.swift */; };
 		784787652750142400E5B7C8 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784787642750142400E5B7C8 /* MapRouter.swift */; };
@@ -40,6 +52,18 @@
 		7814E279274D88A300BA924E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7814E27C274D88A300BA924E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7814E27E274D88A300BA924E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		781ED20E2757F7D5007B9287 /* EventDescriptionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionProtocols.swift; sourceTree = "<group>"; };
+		781ED2102757F80D007B9287 /* EventDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionView.swift; sourceTree = "<group>"; };
+		781ED2122757F822007B9287 /* EventDescriptionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionInteractor.swift; sourceTree = "<group>"; };
+		781ED2142757F83A007B9287 /* EventDescriptionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionPresenter.swift; sourceTree = "<group>"; };
+		781ED2162757F863007B9287 /* EventDescriptionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionEntity.swift; sourceTree = "<group>"; };
+		781ED2182757F871007B9287 /* EventDescriptionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionRouter.swift; sourceTree = "<group>"; };
+		781ED21B2757F8A8007B9287 /* EventCreationProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationProtocols.swift; sourceTree = "<group>"; };
+		781ED21D2757F8BB007B9287 /* EventCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationView.swift; sourceTree = "<group>"; };
+		781ED21F2757F8D8007B9287 /* EventCreationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationInteractor.swift; sourceTree = "<group>"; };
+		781ED2212757F8EE007B9287 /* EventCreationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationPresenter.swift; sourceTree = "<group>"; };
+		781ED2232757F90A007B9287 /* EventCreationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationEntity.swift; sourceTree = "<group>"; };
+		781ED2252757F913007B9287 /* EventCreationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationRouter.swift; sourceTree = "<group>"; };
 		78478760275013E100E5B7C8 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
 		784787622750140C00E5B7C8 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
 		784787642750142400E5B7C8 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
@@ -97,6 +121,22 @@
 				7814E27E274D88A300BA924E /* Info.plist */,
 			);
 			path = EventsMap;
+			sourceTree = "<group>";
+		};
+		781ED20C2757F7B2007B9287 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				781ED20E2757F7D5007B9287 /* EventDescriptionProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		781ED21A2757F896007B9287 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				781ED21B2757F8A8007B9287 /* EventCreationProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		7847875D2750133F00E5B7C8 /* Settings */ = {
@@ -176,6 +216,12 @@
 		784787822750317B00E5B7C8 /* EventDescription */ = {
 			isa = PBXGroup;
 			children = (
+				781ED20C2757F7B2007B9287 /* Protocols */,
+				781ED2102757F80D007B9287 /* EventDescriptionView.swift */,
+				781ED2122757F822007B9287 /* EventDescriptionInteractor.swift */,
+				781ED2142757F83A007B9287 /* EventDescriptionPresenter.swift */,
+				781ED2162757F863007B9287 /* EventDescriptionEntity.swift */,
+				781ED2182757F871007B9287 /* EventDescriptionRouter.swift */,
 			);
 			path = EventDescription;
 			sourceTree = "<group>";
@@ -183,6 +229,12 @@
 		784787832750321E00E5B7C8 /* EventCreation */ = {
 			isa = PBXGroup;
 			children = (
+				781ED21A2757F896007B9287 /* Protocols */,
+				781ED21D2757F8BB007B9287 /* EventCreationView.swift */,
+				781ED21F2757F8D8007B9287 /* EventCreationInteractor.swift */,
+				781ED2212757F8EE007B9287 /* EventCreationPresenter.swift */,
+				781ED2232757F90A007B9287 /* EventCreationEntity.swift */,
+				781ED2252757F913007B9287 /* EventCreationRouter.swift */,
 			);
 			path = EventCreation;
 			sourceTree = "<group>";
@@ -259,20 +311,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				7814E275274D88A200BA924E /* MapView.swift in Sources */,
+				781ED20F2757F7D5007B9287 /* EventDescriptionProtocols.swift in Sources */,
 				7814E271274D88A200BA924E /* AppDelegate.swift in Sources */,
 				7814E273274D88A200BA924E /* SceneDelegate.swift in Sources */,
+				781ED2152757F83A007B9287 /* EventDescriptionPresenter.swift in Sources */,
 				7847876A275019D300E5B7C8 /* MapProtocols.swift in Sources */,
+				781ED21E2757F8BB007B9287 /* EventCreationView.swift in Sources */,
 				784787632750140C00E5B7C8 /* MapInteractor.swift in Sources */,
+				781ED2132757F822007B9287 /* EventDescriptionInteractor.swift in Sources */,
+				781ED2112757F80D007B9287 /* EventDescriptionView.swift in Sources */,
 				7847876D27501BFF00E5B7C8 /* EntityProtocol.swift in Sources */,
+				781ED2172757F863007B9287 /* EventDescriptionEntity.swift in Sources */,
+				781ED2222757F8EE007B9287 /* EventCreationPresenter.swift in Sources */,
 				7847876F27501C1100E5B7C8 /* InteractorProtocol.swift in Sources */,
 				7847878527503EDA00E5B7C8 /* ProfileProtocols.swift in Sources */,
+				781ED2192757F871007B9287 /* EventDescriptionRouter.swift in Sources */,
+				781ED2242757F90A007B9287 /* EventCreationEntity.swift in Sources */,
 				7847877B275030FB00E5B7C8 /* ProfileInteractor.swift in Sources */,
 				78478761275013E100E5B7C8 /* MapPresenter.swift in Sources */,
 				7847877527501C5300E5B7C8 /* RouterProtocol.swift in Sources */,
+				781ED21C2757F8A8007B9287 /* EventCreationProtocols.swift in Sources */,
 				7847877D2750311A00E5B7C8 /* ProfilePresenter.swift in Sources */,
 				784787672750162600E5B7C8 /* MapEntity.swift in Sources */,
 				784787812750314100E5B7C8 /* ProfileRouter.swift in Sources */,
+				781ED2202757F8D8007B9287 /* EventCreationInteractor.swift in Sources */,
 				784787652750142400E5B7C8 /* MapRouter.swift in Sources */,
+				781ED2262757F913007B9287 /* EventCreationRouter.swift in Sources */,
 				7847877327501C3F00E5B7C8 /* ViewProtocol.swift in Sources */,
 				78478779275030E700E5B7C8 /* ProfileView.swift in Sources */,
 				7847877F2750312D00E5B7C8 /* ProfileEntity.swift in Sources */,

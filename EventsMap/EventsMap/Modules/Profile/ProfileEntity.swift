@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct ProfileEntity: ProfileEntityProtocol {
+  var firstName: String?
+  var lastName: String?
+  var email: String?
+  var likedEvents: [String]?
+}

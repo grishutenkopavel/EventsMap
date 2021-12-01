@@ -34,6 +34,19 @@ class MapRouter: MapRouterProtocol {
   func pushToSearchTableModule(use navigationController: UINavigationController) {
     print("SearchTable appearance")
   }
-  func pushToEventDescriptionModule(use navigationController: UINavigationController) {}
-  func pushToEventCreationModule(use navigationController: UINavigationController) {}
+  
+  func pushToEventDescriptionModule(use navigationController: UINavigationController) {
+    let eventDescription = EventDescriptionRouter.createModule() as? EventDescriptionView
+    if let eventDescription = eventDescription {
+      navigationController.pushViewController(eventDescription, animated: true)
+    }
+  }
+  
+  func pushToEventCreationModule(use navigationController: UINavigationController) {
+    let eventCreation = EventCreationRouter.createModule() as? EventCreationView
+    if let eventCreation = eventCreation {
+      navigationController.pushViewController(eventCreation, animated: true)
+    }
+  }
+  
 }

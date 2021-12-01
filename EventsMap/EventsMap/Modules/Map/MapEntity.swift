@@ -7,6 +7,6 @@
 
 import Foundation
 
-class MapEntity: MapEntityProtocol {
-  
+struct MapEntity: MapEntityProtocol {
+  var eventPlaceMarks: String?
 }

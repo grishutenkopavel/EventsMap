@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol EntityProtocol: AnyObject {
+protocol EntityProtocol {
   
 }
