@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7805A2CB278EC08F00D38AA4 /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805A2CA278EC08F00D38AA4 /* MapSearchView.swift */; };
+		7805A2D1278F668700D38AA4 /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805A2D0278F668700D38AA4 /* ProfileProtocols.swift */; };
 		7814E271274D88A200BA924E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814E270274D88A200BA924E /* AppDelegate.swift */; };
 		7814E273274D88A200BA924E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814E272274D88A200BA924E /* SceneDelegate.swift */; };
 		7814E275274D88A200BA924E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814E274274D88A200BA924E /* MapView.swift */; };
@@ -40,10 +42,11 @@
 		7847877D2750311A00E5B7C8 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877C2750311A00E5B7C8 /* ProfilePresenter.swift */; };
 		7847877F2750312D00E5B7C8 /* ProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847877E2750312D00E5B7C8 /* ProfileEntity.swift */; };
 		784787812750314100E5B7C8 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784787802750314100E5B7C8 /* ProfileRouter.swift */; };
-		7847878527503EDA00E5B7C8 /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847878427503EDA00E5B7C8 /* ProfileProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7805A2CA278EC08F00D38AA4 /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
+		7805A2D0278F668700D38AA4 /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
 		7814E26D274D88A200BA924E /* EventsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7814E270274D88A200BA924E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7814E272274D88A200BA924E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +82,6 @@
 		7847877C2750311A00E5B7C8 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
 		7847877E2750312D00E5B7C8 /* ProfileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEntity.swift; sourceTree = "<group>"; };
 		784787802750314100E5B7C8 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
-		7847878427503EDA00E5B7C8 /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileProtocols.swift; path = ../../../../../../ProfileProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7805A2C9278EC06E00D38AA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7805A2CA278EC08F00D38AA4 /* MapSearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7814E264274D88A200BA924E = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		7814E26F274D88A200BA924E /* EventsMap */ = {
 			isa = PBXGroup;
 			children = (
+				7805A2C9278EC06E00D38AA4 /* Views */,
 				7847876B27501BD400E5B7C8 /* MuduleProtocols */,
 				7847875E2750135300E5B7C8 /* Modules */,
 				7847875D2750133F00E5B7C8 /* Settings */,
@@ -208,7 +219,7 @@
 		78478777275030D000E5B7C8 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				7847878427503EDA00E5B7C8 /* ProfileProtocols.swift */,
+				7805A2D0278F668700D38AA4 /* ProfileProtocols.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -317,6 +328,7 @@
 				781ED2152757F83A007B9287 /* EventDescriptionPresenter.swift in Sources */,
 				7847876A275019D300E5B7C8 /* MapProtocols.swift in Sources */,
 				781ED21E2757F8BB007B9287 /* EventCreationView.swift in Sources */,
+				7805A2D1278F668700D38AA4 /* ProfileProtocols.swift in Sources */,
 				784787632750140C00E5B7C8 /* MapInteractor.swift in Sources */,
 				781ED2132757F822007B9287 /* EventDescriptionInteractor.swift in Sources */,
 				781ED2112757F80D007B9287 /* EventDescriptionView.swift in Sources */,
@@ -324,7 +336,6 @@
 				781ED2172757F863007B9287 /* EventDescriptionEntity.swift in Sources */,
 				781ED2222757F8EE007B9287 /* EventCreationPresenter.swift in Sources */,
 				7847876F27501C1100E5B7C8 /* InteractorProtocol.swift in Sources */,
-				7847878527503EDA00E5B7C8 /* ProfileProtocols.swift in Sources */,
 				781ED2192757F871007B9287 /* EventDescriptionRouter.swift in Sources */,
 				781ED2242757F90A007B9287 /* EventCreationEntity.swift in Sources */,
 				7847877B275030FB00E5B7C8 /* ProfileInteractor.swift in Sources */,
@@ -339,6 +350,7 @@
 				781ED2262757F913007B9287 /* EventCreationRouter.swift in Sources */,
 				7847877327501C3F00E5B7C8 /* ViewProtocol.swift in Sources */,
 				78478779275030E700E5B7C8 /* ProfileView.swift in Sources */,
+				7805A2CB278EC08F00D38AA4 /* MapSearchView.swift in Sources */,
 				7847877F2750312D00E5B7C8 /* ProfileEntity.swift in Sources */,
 				7847877127501C2500E5B7C8 /* PresenterProtocol.swift in Sources */,
 			);

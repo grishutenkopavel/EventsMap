@@ -34,6 +34,7 @@ class MapView: UIViewController, MapViewProtocol {
     return button
   }()
   
+  var mapSearchView: MapSearchView = MapSearchView()
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -49,6 +50,8 @@ class MapView: UIViewController, MapViewProtocol {
     view.addSubview(profileButton)
     view.addSubview(eventCreationButton)
     view.addSubview(eventDescriptionButton)
+    view.addSubview(mapSearchView)
+    setConstraints()
   }
 
 }
@@ -65,5 +68,19 @@ extension MapView {
   @objc func didTapEventCreationButton(sender: UIButton) {
     guard let navigationController = navigationController else { return }
     (presenter as? MapPresenterProtocol)?.showEventCreation(navigationController: navigationController)
+  }
+}
+
+//MARK: - Constraints
+extension MapView {
+  func setConstraints() {
+    mapSearchView.translatesAutoresizingMaskIntoConstraints = false
+    NSLayoutConstraint.activate([
+      mapSearchView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+      mapSearchView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+      mapSearchView.topAnchor.constraint(equalTo: view.topAnchor, constant: view.bounds.height*mapSearchView.position.getPosition()),
+      mapSearchView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+    ])
+    
   }
 }
